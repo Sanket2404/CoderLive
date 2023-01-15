@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dribble_Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid p-2">
+        <a class="navbar-brand" href="#" id="logo">𝓭𝓻𝓲𝓫𝓫𝓵𝓮</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0 mx-1">
+            <li class="nav-item mx-1">
+              <a class="nav-link" aria-current="page" href="#">Inspiration</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Find Work</a>
+            </li>
+
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Learn Design</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Go Pro</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Hire Designers</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <i style="cursor: pointer"
+              ><img src="img/search (1).svg" class="px-2 py-3"
+            /></i>
+            <button
+              class="btn btn-outline-none border-0"
+              id="btn1"
+              type="submit"
+            >
+              Sign In
+            </button>
+            <button class="mx-2" id="btn2" type="submit">SignUp</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Middle part -->
+
+    <div class="d-flex bd-highlight mb-3 my-4 w-50" id="mid">
+      <div class="Profile_pic p-2 bd-highlight">
+        <img src="img/4.webp" style="cursor: pointer" />
+      </div>
+      <div class="p-2 bd-highlight">
+        <h5 style="font-size: 17px; font-weight: 600">
+          Log in page--Untitled UI
+        </h5>
+        <p style="color: gray">Jordan Hughes . Follow</p>
+      </div>
+      <div class="ms-auto p-2 bd-highlight">
+        <button class="border-0" id="btn3" type="submit">Sign In</button>
+        <button class="mx-2" id="btn4" type="submit">&#10084; Like</button>
+      </div>
+    </div>
+
+    <!-- Right-side Bar -->
+
+    <div class="position-relative">
+      <div
+        class="position-absolute top-0 end-0 pb-2 px-3"
+        style="margin-top: -90px"
+      >
+        <div class="Profile_pic bd-highlight">
+          <img src="img/4.webp" style="cursor: pointer" />
+        </div>
+        <div class="py-2">
+          <button
+            style="border: 0.2px solid rgb(198, 194, 194); border-radius: 2px"
+          >
+            <img
+              src="img/speech-bubble.png"
+              style="width: 25px; padding: 2.5px"
+            />
+          </button>
+        </div>
+        <div class="py-2">
+          <button
+            style="border: 0.2px solid rgb(198, 197, 197); border-radius: 2px"
+          >
+            <img src="img/share.png" style="width: 25px; padding: 2.5px" />
+          </button>
+        </div>
+        <div class="py-2">
+          <button
+            style="border: 0.2px solid rgb(198, 197, 197); border-radius: 2px"
+          >
+            <img src="img/info.png" style="width: 25px; padding: 2.5px" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+
+    <div class="container-fluid w-50" id="carousel">
+      <div
+        id="carouselExampleControlsNoTouching"
+        class="carousel slide"
+        data-bs-touch="false"
+        data-bs-interval="false"
+      >
+        <div class="carousel-inner p-5">
+          <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

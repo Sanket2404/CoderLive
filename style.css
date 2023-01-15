@@ -1,0 +1,66 @@
+#logo {
+  font-size: 25px;
+  padding-right: 10px;
+}
+form > #btn2 {
+  color: white;
+  background-color: rgb(225, 89, 134);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+li > a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+}
+form > button {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+}
+#btn3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+  background-color: rgb(218, 215, 217);
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+}
+#btn4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(225, 89, 134);
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+}
+.Profile_pic > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#mid {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+}
+
+#carousel {
+  border-radius: 10px;
+  background-color: rgb(189, 187, 187);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  outline: black;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.carousel-inner > .carousel-item > img {
+  border-radius: 10px;
+}
